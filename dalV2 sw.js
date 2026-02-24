@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dalbit_eps-ubt_v3'; // Iniba ang version para mag-refresh
+const CACHE_NAME = 'dalbit_eps-ubt_v4'; // Iniba ang version para mag-refresh
 const ASSETS = [
   './',
   'index.html',
