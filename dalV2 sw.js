@@ -5,10 +5,10 @@ const ASSETS = [
   'manifest.json',
   // 'styles.css', // I-comment out kung wala kang hiwalay na file nito
   // 'script.js', // I-comment out kung wala kang hiwalay na file nito
-  'audio_21.mp3', 'audio_22.mp3', 'audio_23.mp3', 'audio_24.mp3', 'audio_25.mp3',
-  'audio_26.mp3', 'audio_27.mp3', 'audio_28.mp3', 'audio_29.mp3', 'audio_30.mp3',
-  'audio_31.mp3', 'audio_32.mp3', 'audio_33.mp3', 'audio_34.mp3', 'audio_35.mp3',
-  'audio_36.mp3', 'audio_37.mp3', 'audio_38.mp3', 'audio_39.mp3', 'audio_40.mp3'
+  '/.audio_21.mp3', '/.audio_22.mp3', '/.audio_23.mp3', '/.audio_24.mp3', '/.audio_25.mp3',
+  '/.audio_26.mp3', '/.audio_27.mp3', '/.audio_28.mp3', '/.audio_29.mp3', '/.audio_30.mp3',
+  '/.audio_31.mp3', '/.audio_32.mp3', '/.audio_33.mp3', '/.audio_34.mp3', '/.audio_35.mp3',
+  '/.audio_36.mp3', '/.audio_37.mp3', '/.audio_38.mp3', '/.audio_39.mp3', '/.audio_40.mp3'
 ];
 
 // Install - Mas pinatibay na caching
