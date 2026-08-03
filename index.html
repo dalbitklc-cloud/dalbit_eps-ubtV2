@@ -12,7 +12,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dalbit EPS-Style UBT Simulator</title>
   <link rel="manifest" href="manifest.json">
-
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+      .then(() => console.log("Offline Mode Ready!"))
+      .catch((err) => console.log("SW registration failed", err));
+  }
+</script>
   <style>
     :root {
       --navy: #000080;
@@ -21,13 +27,7 @@
       --correct: #28a745;
       --wrong: #dc3545;
     }
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js')
-      .then(() => console.log("Offline Mode Ready!"))
-      .catch((err) => console.log("SW registration failed", err));
-  }
-</script>
+
     body {
       margin: 0;
       font-family: 'Malgun Gothic', Arial, sans-serif;
